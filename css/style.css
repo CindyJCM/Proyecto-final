@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+
+--colorEncabezado:#000000;
+--coloePie:#000000;
+--colorEnlace: #cb1515;
+--ColorEnlacesobre: #000000;
+
+
+--textos:'Roboto', sans-serif;
+--tamTitulos:6.3rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.home-wrapper{
+    /* imagen fondo */
+background:url('../images/fondo.jpg');
+background-size: cover;
+
+}
+/*seccion cine*/
+#cine .box img{
+    display: inline-block;
+    padding: 8px;
+    width: 33%;
+
+}
+/* seccion musica*/
+#musica .box img{
+    display: inline-block;
+    padding: 8px;
+    width: 33%;
+
+}    
+/*seccion teatro*/
+#teatro .box img{
+    display: inline-block;
+    padding: 8px;
+    width: 33%;
+
+}
+
+.alto-img{
+    height: 850px!important;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+#logo{
+    width: 250px!important;
+    height: 100px;
+}
+
+#menu{
+    background-color: #ffe8f4 !important;
+}
+
+header{
+    width: 100%;
+    background-color:pink;
+    position: fixed;
+    /* espaciado */
+    padding: 10px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav{
+    float: right;
+    margin-top: 8px;
+}
+
+header nav a {
+    color: var(--colorEnlace);
+    text-decoration: none;
+    background-color: var(--ColorEnlacesobre);
+     margin-left: 5px;
+}
+
+#home{
+    text-align: center;
+    padding: 250px 0 250px;
+
+}
+
+/* las class se representan por un .*/
+.container{
+margin-left:auto;
+margin-right: auto;
+width:100%;
+}
+
+/*utilizar el selector de la etiqueta section*/
+section{ 
+    /*espaciado superior*/
+    padding-top: 80px;
+
+}
+
+/* en la seccion de home,aplicar estilos al titulo novedades */
+#home h2{ 
+   /* fuente*/
+   font-family: var(--textos);
+   /*color de fuente*/
+   color: rgb(106, 13, 13);
+   /*tamaño de fuentes*/
+   font-size:var(--tamTitulos);
+   /*negrita al titulo*/
+   font-weight: bold;
+   margin-top: 20px;
+   
+
+}
+/*aplicar stilos al texto en la seccion home*/
+#home p{
+    font-family:var(--textos);
+    font: size 2rem;
+    color: #000;
+}
+
+    /* seccion cine */
+#Teatro .box{
+    display: inline-block;
+    width: 33%;
+    padding: 8px;
+}
+
+#Teatro .box img{
+  width: 100%;
+}
+
+#Cine .box{
+    display: inline-block;
+    width: 33%;
+    padding: 8px;
+
+}
+
+#Cine .box img{
+  width: 100%;
+}
+
+#Musica  .box{
+    display: inline-block;
+    width: 33%;
+    padding: 8px;
+
+}
+
+#Musica .box img{
+  width: 100%;
+}
+
+  /* para los titulos en las secciones */
+ #teatro, #musica, #cine, h2{
+text-align: center;
+font-family: var(--textos);
+font-size:1.5rem;
+font-weight: bold !important;
+margin-top:90px;
+
+ }
+#teatro, #musica, #cine, p{
+    text-align: justify;
+    font-family:  var(--textos);
+    font-size: 16px;
+}
+/* contacto */
+#contacto{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#contacto input,textarea{
+        width: 600px;
+        border-radius: 5px;
+        padding:10px 20px ;
+
+}
+    /* pie de pag -footer */
+footer{
+        width: 100%;
+        background-color: #ffe8f4;
+        padding: 20px;
+        text-align: center;
+}
+    /*novedades*/
+#novedades{
+    background-color: #0a417f !important;
+}
+     
+#novedades .titulo{
+    width:100% ;
+    text-align: center;
+    color: #fff;
+}
+
+#aboutUs {
+    margin-right: 10px;
+}
